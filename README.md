@@ -31,7 +31,7 @@ Proyek ini bertujuan untuk mensimulasikan lingkungan server produksi di mana ema
 ### Arsitektur & Topologi Jaringan
 Kami menggunakan topologi Hybrid di mana Mikrotik berfungsi sebagai pusat jaringan: Gateway Internet (via Wireless Uplink), DNS Server lokal, dan DHCP Server. Server Ubuntu terhubung via kabel, sedangkan klien terhubung via Wi-Fi.
 
-![Topologi Jaringan](Topologi_Jaringan.jpg)
+![Topologi Jaringan](Topologi_Jaringan.png)
 *Skema Topologi Jaringan Mail Server Kelompok 4.*
 > **⚠️ Catatan Penting:** Gambar di atas adalah ilustrasi topologi dan alur data. **IP Address yang tertera hanya sebagai contoh referensi**. Konfigurasi IP riil (Network ID, Gateway, dll.) BISA MENYESUAIKAN dengan kondisi jaringan Anda masing-masing.
 
