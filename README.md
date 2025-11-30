@@ -33,6 +33,7 @@ Kami menggunakan topologi Hybrid di mana Mikrotik berfungsi sebagai pusat jaring
 
 ![Topologi Jaringan](Topologi_Jaringan.jpg)
 *Skema Topologi Jaringan Mail Server Kelompok 4.*
+> **⚠️ Catatan Penting:** Gambar di atas adalah ilustrasi topologi dan alur data. **IP Address yang tertera hanya sebagai contoh referensi**. Konfigurasi IP riil (Network ID, Gateway, dll.) BISA MENYESUAIKAN dengan kondisi jaringan Anda masing-masing.
 
 ---
 
@@ -72,11 +73,11 @@ File-file dalam repositori ini adalah salinan konfigurasi dari server produksi k
 
 Berikut adalah ringkasan langkah-langkah untuk membangun ulang sistem ini menggunakan konfigurasi yang tersedia:
 
-1.  **Setup Mikrotik:** Import file `/mikrotik_config/config_mikrotik_final.rsc` ke router Mikrotik yang sudah di-reset untuk mengatur jaringan dasar.
+1.  **Setup Mikrotik:** Import file `/mikrotik_config/config_mikrotik_final.rsc` ke router Mikrotik yang sudah di-reset untuk mengatur jaringan dasar (Sesuaikan IP WAN/LAN jika perlu).
 2.  **Setup Server Ubuntu:** Install Ubuntu Server 24.04 LTS dan hubungkan ke port Ether2 Mikrotik.
 3.  **Install Paket:** Install dependensi yang diperlukan: `postfix`, `dovecot-core`, `dovecot-imapd`, `apache2`, `mariadb-server`, `php`, dan `roundcube`.
 4.  **Generate SSL:** Buat Self-Signed Certificate menggunakan OpenSSL di `/etc/ssl/`.
-5.  **Terapkan Konfigurasi:** Salin file-file dari folder `/ubuntu_server_config/` ke lokasi yang sesuai di server (`/etc/postfix`, `/etc/dovecot`, dll).
+5.  **Terapkan Konfigurasi:** Salin file-file dari folder `/ubuntu_server_config/` ke lokasi yang sesuai di server (`/etc/postfix`, `/etc/dovecot`, dll). Pastikan menyesuaikan IP di Netplan jika topologi Anda berbeda.
 6.  **Setup Database & User:** Konfigurasi database untuk Roundcube dan buat user Linux untuk pengujian.
 7.  **Restart Service:** Restart `apache2`, `postfix`, dan `dovecot` untuk menerapkan perubahan.
 
