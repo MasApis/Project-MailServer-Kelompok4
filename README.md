@@ -13,12 +13,10 @@ Dirancang dan diimplementasikan sebagai infrastruktur email mandiri yang aman da
 
 | NIM | Nama |
 | :--- | :--- |
-| **[2401020051]** | Abdul Hafidz |
-| **[NIM ADIB]** | Adib |
-| **[NIM DEA]** | Dea |
-| **[NIM ICIN]** | Icin |
-
-*(Silakan lengkapi NIM masing-masing)*
+| **2401020051** | Abdul Hafidz |
+| **24010200** | Adib |
+| **2401020060** | Nisrina Retnosari |
+| **2401020075** | Dhiya Zarifa Putri Marzuki |
 
 ---
 
@@ -107,4 +105,4 @@ Hal ini mencakup:
 2.  **Kredensial Database:** Password koneksi database di dalam file konfigurasi Roundcube telah disensor atau dihapus sebelum diunggah.
 
 ---
-**Tugas Akhir Sistem Operasi - Kelompok 4 - [Tahun]**
+**Tugas Akhir Sistem Operasi - Kelompok 4 - 2025**
