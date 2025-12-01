@@ -13,7 +13,7 @@ Dirancang dan diimplementasikan sebagai infrastruktur email mandiri yang aman da
 
 | NIM | Nama |
 | :--- | :--- |
-| **[NIM ABDUL]** | Abdul |
+| **[2401020051]** | Abdul Hafidz |
 | **[NIM ADIB]** | Adib |
 | **[NIM DEA]** | Dea |
 | **[NIM ICIN]** | Icin |
