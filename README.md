@@ -14,8 +14,8 @@ Dirancang dan diimplementasikan sebagai infrastruktur email mandiri yang aman da
 | NIM | Nama |
 | :--- | :--- |
 | **2401020051** | Abdul Hafidz |
-| **24010200** | Adib |
 | **2401020060** | Nisrina Retnosari |
+| **2401020076** | Muhammad Adib Haryadi |
 | **2401020075** | Dhiya Zarifa Putri Marzuki |
 
 ---
